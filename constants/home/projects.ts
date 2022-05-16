@@ -13,7 +13,7 @@ export const PROJECTS : Project[] = [
   {
     name: "Trichrome",
     subtitle: "Front-end",
-    image: "trichrome/home-thumbnails.jpg",
+    image: "/assets/images/thumbnails/Paul-Haddou_Thumbnail-Projects_Affiche-Deadpool.jpg",
     video: "trichrome/home-thumbnails.jpg",
     altImage: "",
     translationKey: "trichrome",
@@ -24,7 +24,7 @@ export const PROJECTS : Project[] = [
   {
     name: "FoodLab",
     subtitle: "Platform",
-    image: "foodlab/home-thumbnails.jpg",
+    image: "/assets/images/thumbnails/Paul-Haddou_Thumbnail-Projects_Affiche-Deadpool.jpg",
     video: "foodlab/home-thumbnails.jpg",
     altImage: "",
     translationKey: "foodlab",

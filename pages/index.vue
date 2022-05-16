@@ -7,7 +7,7 @@
         class="projects_project"
       >
         <nuxt-link :to="project.internalLink">
-          <img v-if="project.isImg" :src="project.img" :alt="project.alt">
+          <img v-if="project.isImg" :src="project.image" :alt="project.alt">
           <video
             v-else
             playsinline
@@ -72,10 +72,10 @@ export default {
             a
             {
                 width: 100%;
-                height: 100%;
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                flex-direction: column;
                 img
                 {
                     width: 100%;
