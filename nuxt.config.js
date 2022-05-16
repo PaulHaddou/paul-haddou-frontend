@@ -1,3 +1,4 @@
+import i18n from './config/i18n'
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -33,7 +34,26 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/eslint
-    '@nuxtjs/eslint-module'
+    '@nuxtjs/eslint-module',
+    '@nuxt/typescript-build',
+    [
+      'nuxt-i18n',
+      {
+        vueI18nLoader: true,
+        defaultLocale: 'fr',
+        locales: [
+          {
+            code: 'en',
+            name: 'English'
+          },
+          {
+            code: 'fr',
+            name: 'Français'
+          }
+        ],
+        vueI18n: i18n
+      }
+    ]
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -42,5 +62,27 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    extend (config, { isClient, loaders: { vue } }) {
+      // Extend only webpack config for client-bundle
+      if (isClient) {
+        vue.transformAssetUrls.video = ['src', 'poster']
+      }
+    },
+    loaders: {
+      sass: {
+        implementation: require('sass')
+      },
+      scss: {
+        implementation: require('sass')
+      },
+      vue: {
+        transformAssetUrls: {
+          video: 'src',
+          source: 'src',
+          object: 'src',
+          embed: 'src'
+        }
+      }
+    }
   }
 }

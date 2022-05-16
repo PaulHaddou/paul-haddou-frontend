@@ -1,0 +1,101 @@
+{
+  "home": {
+    "hero-header": {
+      "title": {
+        "regular": "We build web2 & web3 experiences.",
+        "bold": "We build the",
+        "last-word": "future"
+      }
+    },
+    "our-clients": {
+      "name": "Nos clients & partenaires",
+      "first-line": "We built",
+      "last-line": "together"
+    },
+    "our-agency": {
+      "name": "Notre agence",
+      "text": "La nouvelle transition majeure du web est en cours, Avicenne vous accompagne donc dans vos projets web2 et web3. Au-delà de la communication et de l'interaction en ligne, l'appropriation des données et la décentralisation à travers la Blockchain sont au cœur des sujets."
+    },
+    "works-section": {
+      "name": "Nos projets",
+      "works": {
+        "trichrome":{
+          "image-alt": "Image du projet Trichrome"
+        },
+        "foodlab":{
+          "image-alt": "Image du projet foodlab"
+        }
+      }
+    },
+    "services-section": {
+      "name": "Nos services",
+      "services": {
+        "web-development": {
+          "title": "Développement web",
+          "description": "Nous développons des applications web sur-mesure à destination des start-ups, petites et grandes entreprises à l'aide d'une stack technique variée. Nous prenons connaissance du besoin et accompagnons nos collaborateurs dans la création de leur produit, en prenant en considération les problématiques de scaling, de maintenabilité et de performance.",
+          "image-alt": "Image du service de développement web"
+        },
+        "blockchain-development": {
+          "title": "Blockchain",
+          "description": "De la création de token et applications décentralisées aux systèmes de gouvernance complexes et DAO. Avicenne vous accompagne dans le cadre des ses services blockchain de la définition de votre besoin à la réalisation de votre projet. À travers une méthodologie agile, nous mettons en place votre marketplace NFT, ainsi que plateforme de staking et d'ICOs. Des tests rigoureux sont essentiels pour le déploiement de vos smart contracts, une couverture de 100% est donc exigée à la livraison.",
+          "image-alt": "Image du service de développement blockchain"
+        }
+      }
+    },
+    "team-section": {
+      "name": "L'équipe",
+      "jobs": {
+        "president": "Président",
+        "managing-director": "Directeur Général"
+      },
+      "images-alt": {
+        "adam-aleb": "Image de Adam Aleb",
+        "marwane-lairi": "Image de Marwane Lairi"
+      }
+    }
+  },
+  "navbar": {
+    "about-us": "À propos",
+    "services": "Services",
+    "team": "L'équipe",
+    "works": "Projets",
+    "back": "Retour"
+  },
+  "footer": {
+    "name": "Contact",
+    "socials-title": "Suivez-nous"
+  },
+  "cursor": {
+    "see-project": "Voir le projet",
+    "mail": "Contactez-nous"
+  },
+  "use-cases": {
+    "template": {
+      "tasks": "Tâches",
+      "website-button": "Visiter le site"
+    },
+    "projects": {
+      "trichrome": {
+        "meta-description": "",
+        "blocs-text": [
+          "Trichrome est une boîte de production créative basée à Paris. Ils créent des expériences audiovisuelles pour leurs clients en s’appuyant sur leur large éventail de talents créatifs.",
+          "Pour ce projet, nous avions pour objectif de faire paraître leur savoir faire à travers un site web à leur image. L’enjeu pour Trichrome était d’approfondir leur présence digitale en ayant une nouvelle vitrine, cette fois ci sur le web. Ensemble, nous avons créé et intégré un design unique à leur marque, avec une technologie scalable leur permettant de mettre à jour rapidement et simplement son contenu. Le choix de la stack s’est donc naturellement portée sur VueJS, afin de garder une liberté créative et une souplesse au niveau du développement.",
+          "Durant notre collaboration, nous avons imaginé les différentes manières de concevoir un site ergonomique et simple, mettant en valeur la qualité audiovisuelle de leurs projets. La navigation fut un point essentiel lors de la mise en place du produit. Il nous fallait garder un côté élégant tout en restant intuitif. L’expérience devait de même être immersive pour l’utilisateur dans cet univers. Après des moments de réflexion avec les différentes équipes, nous avons développé et livré le nouveau site internet impactant de Trichrome."
+        ],
+        "blocs-banner": [
+        ],
+        "images-alts": "Image du projet Trichrome"
+      },
+      "foodlab": {
+        "meta-description": "",
+        "blocs-text": [
+          "Foodlab est un laboratoire de recherche sur les sujet culinaires. Ils travaillent avec des marques et des industrielles afin de proposer des audits sur plusieurs aspects d’une sélection de produits : durabilité, santé, innovation, RSE",
+          "L’objectif de notre collaboration était de leur proposer une plateforme de visualisation de données, leur permettant d’obtenir les résultats de leurs recherches sous forme de graphiques précis sur un tableau de bord. L’enjeu était ici d’avoir un traitement de données performant, afin de récupérer les graphiques à utiliser dans les rapports d’audit du laboratoire. La performance du système était un point crucial de ce projet. Le volume de données étant particulièrement élevé, il a fallu mettre en place un système de traitement optimale en big data n’impactant pas le temps de chargement de la plateforme. Dorénavant, FoodLab peut utiliser en interne une nouvelle plateforme de data visualisation leur facilitant la gestion de leur travail au quotidien."
+        ],
+        "blocs-banner": [
+        ],
+        "images-alts": "Image du projet foodlab"
+      }
+    }
+  }
+}
