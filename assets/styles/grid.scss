@@ -1,0 +1,28 @@
+@import "./breakpoints.scss";
+
+@mixin grid {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    grid-gap: 48px;
+    row-gap: 0;
+    padding: 0 120px;
+
+    //Mobile
+    @media (max-width: $bp-mobile) {
+        display: grid;
+        grid-template-columns: repeat(6, minmax(0, 1fr));
+        grid-gap: 24px;
+        row-gap: 0;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    //Tablet
+    @media (min-width: $bp-mobile) and (max-width: $bp-tablet) {
+        display: grid;
+        grid-template-columns: repeat(12, minmax(0, 1fr));
+        grid-gap: 24px;
+        row-gap: 0;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
