@@ -1,39 +1,46 @@
 <template>
-  <div class="main">
-    <div class="main_projects">
-      <div
-        v-for="(project, index) in projects"
-        :key="index"
-        class="projects_project"
-      >
-        <nuxt-link :to="project.internalLink">
-          <img v-if="project.isImg" :src="project.image" :alt="project.alt">
-          <video
-            v-else
-            playsinline
-            autoplay
-            muted
-            loop
-            :src="project.video"
-            :alt="project.alt"
-          />
-          <div class="project_description">
-            <p>{{ project.name }}</p>
-            <p>{{ project.subtitle }}</p>
-          </div>
-        </nuxt-link>
+  <div>
+    <div class="main">
+      <div class="main_projects">
+        <div
+          v-for="(project, index) in projects"
+          :key="index"
+          class="projects_project"
+        >
+          <nuxt-link :to="project.internalLink">
+            <img v-if="project.isImg" :src="project.image" :alt="project.alt">
+            <video
+              v-else
+              playsinline
+              autoplay
+              muted
+              loop
+              :src="project.video"
+              :alt="project.alt"
+            />
+            <div class="project_description">
+              <p>{{ project.name }}</p>
+              <p>{{ project.subtitle }}</p>
+            </div>
+          </nuxt-link>
+        </div>
       </div>
-    </div>
-    <div class="projects_button">
-      <a class="projects_button_download" href="pdf/Paul-Haddou_Portfolio_FR.pdf" download>Télécharge mon pdf sale chien></a>
+      <div class="projects_button">
+        <a class="projects_button_download" href="pdf/Paul-Haddou_Portfolio_FR.pdf" download>Voir mon CV></a>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
+// import Navbar from '~/components/Navbar'
 import { PROJECTS } from '~/constants/home/'
 export default {
   name: 'HomePage',
+  components: {
+    // Navbar
+  },
+  layout: 'DefaultLayout',
   data () {
     return {
       projects: PROJECTS
@@ -51,7 +58,7 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 150px;
     .main_projects
     {
         width: 80%;

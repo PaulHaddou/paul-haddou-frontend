@@ -55,11 +55,10 @@
     }
   },
   "navbar": {
-    "about-us": "À propos",
-    "services": "Services",
-    "team": "L'équipe",
-    "works": "Projets",
-    "back": "Retour"
+    "all-projects": "All projects",
+    "development": "Development",
+    "design": "Design",
+    "about": "About me"
   },
   "footer": {
     "name": "Contact",
