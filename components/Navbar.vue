@@ -3,7 +3,9 @@
     <div class="navbar">
       <div class="navbar_navbar">
         <div class="navbar-logo">
-          <a href="<?= $hrefProjects ?>">HP</a>
+          <nuxt-link to="/">
+            HP
+          </nuxt-link>
         </div>
         <div class="navbar-sections">
           <div class="sections-links">
@@ -17,7 +19,7 @@
               </nuxt-link>
               <span class="spanActiv" />
             </div>
-            <div class="sections-links_language">
+            <!-- <div class="sections-links_language">
               <div class="language-Not-Choosen">
                 <a href="'.$switchLanguage.'">
                   Fr
@@ -29,14 +31,14 @@
                 <a href="#">En</a>
                 <span class="language-Choosen_Span" />
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
     </div>
     <div class="navbarMobile">
       <div class="navbarMobile_logo">
-        <nuxt-link to="#">
+        <nuxt-link to="/">
           HP
         </nuxt-link>
         <div class="logo_burger" @click="onClick()">
@@ -49,18 +51,18 @@
       </div>
       <div :class="isClicked ? 'navbarMobile_links-active' : 'navbarMobile_links'">
         <nuxt-link
-          class="links"
-          active-class="current-page"
           v-for="(page, index) in pages"
           :key="index"
+          class="links"
+          active-class="current-page"
           to="/"
         >
           {{ $t(''+ page.name +'') }}
         </nuxt-link>
-        <div class="navbarMobile_Language">
+        <!-- <div class="navbarMobile_Language">
           <a href="#">En</a>
           <span class="language-Choosen_Span" />
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
