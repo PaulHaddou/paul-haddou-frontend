@@ -77,7 +77,7 @@
           muted
           loop
           class="description_bloc-text-picture_picture"
-          src="/assets/images/projects/Studio-HD/Paul-Haddou_Project-studio-HD_Description-Picture_1.mp4"
+          src="/assets/images/projects/Studio-HD/Paul-Haddou_Project-Studio-HD_Description-Picture_1.mp4"
           alt="Video illustrant le projet"
         />
       </div>
@@ -85,7 +85,7 @@
         <p class="description_bloc-text-picture_text">
           {{ $t('projects.studio-haddou-dufourcq.content.text-3') }}
         </p>
-        <img class="description_bloc-text-picture_picture" src="/assets/images/projects/Studio-HD/Paul-Haddou_Project-studio-haddou-dufourcq_Description-Picture_2.jpg" alt="Image illustrant le projet">
+        <img class="description_bloc-text-picture_picture" src="/assets/images/projects/Studio-HD/Paul-Haddou_Project-Studio-HD_Description-Picture_2.jpg" alt="Image illustrant le projet">
       </div>
     </div>
   </div>
@@ -131,6 +131,7 @@ export default {
             }
             .main_project-title
             {
+              font-size: 50px;
                 font-weight: bold;
                 text-align: center;
                 width: 100%;
@@ -296,6 +297,8 @@ export default {
                     .main_project-description_title_step_title
                     {
                         font-size: 50px;
+                        font-weight: bold;
+                        margin: 0;
 
                     }
                     .main_project-description_title_step_underline
