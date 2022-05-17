@@ -281,9 +281,9 @@ export default {
                 text-align: center;
                 letter-spacing: -0.36em;
             }
-            .nuxt-link-exact-active{
+            /* .nuxt-link-exact-active{
                 text-decoration: underline;
-            }
+            } */
             .logo_burger
             {
                 height: 100%;
