@@ -3,20 +3,20 @@
     <div class="layout">
       <Navbar />
       <Nuxt />
-      <!-- <Footer /> -->
+      <Footer />
     </div>
   </div>
 </template>
 
 <script>
 import Navbar from '~/components/Navbar'
-// import Footer from '~/components/global/organisms/Footer.vue'
+import Footer from '~/components/Footer'
 
 export default {
   name: 'DefaultLayout',
   components: {
-    Navbar
-    // Footer,
+    Navbar,
+    Footer
   }
 }
 </script>
