@@ -7,16 +7,20 @@
           :key="index"
           class="projects_project"
         >
-          <nuxt-link :to="project.internalLink">
-            <img v-if="project.isImg" :src="project.image" :alt="project.alt">
+          <nuxt-link :to="'/projects/' + project.key">
+            <img
+              v-if="project.isImg"
+              :src="'/assets/images/thumbnails/Paul-Haddou_Thumbnail-Projects_' + project.thumbnail"
+              alt="Miniature servant à illustrer le projet"
+            >
             <video
               v-else
               playsinline
               autoplay
               muted
               loop
-              :src="project.video"
-              :alt="project.alt"
+              :src="'/assets/images/thumbnails/Paul-Haddou_Thumbnail-Projects_' + project.video"
+              alt="Miniature servant à illustrer le projet"
             />
             <div class="project_description">
               <p>{{ project.name }}</p>
@@ -33,7 +37,6 @@
 </template>
 
 <script>
-// import Navbar from '~/components/Navbar'
 import { PROJECTS } from '~/constants/home/'
 export default {
   name: 'HomePage',
@@ -83,6 +86,7 @@ export default {
                 justify-content: center;
                 align-items: center;
                 flex-direction: column;
+                text-decoration: none;
                 img
                 {
                     width: 100%;
@@ -116,7 +120,7 @@ export default {
                 {
                     padding: 0;
                     margin: 0;
-                    color: $color-p-grey;
+                    color: $color-n-chrome;
                     font-family: $primary-font;
                     font-weight: bold;
                     font-size: 10px;
@@ -138,7 +142,7 @@ export default {
         }
         .projects_project:hover .project_description
         {
-            transform: translateY(-100%);
+            transform: translateY(-120%);
             transition: $globalTransition;
         }
     }

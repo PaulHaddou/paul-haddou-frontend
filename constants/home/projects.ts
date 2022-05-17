@@ -1,35 +1,47 @@
 interface Project {
   name: string;
   subtitle: string;
-  image: string;
-  video: string;
-  altImage: string;
-  translationKey: string;
-  internalLink: string;
-  liveWebsite: string;
+  thumbnail: string;
   isImg: boolean;
+  video: string;
+  key: string;
+  liveWebsite: string;
 }
 export const PROJECTS : Project[] = [
   {
-    name: "Trichrome",
-    subtitle: "Front-end",
-    image: "/assets/images/thumbnails/Paul-Haddou_Thumbnail-Projects_Affiche-Deadpool.jpg",
-    video: "trichrome/home-thumbnails.jpg",
-    altImage: "",
-    translationKey: "trichrome",
-    internalLink: "trichrome",
-    liveWebsite: "/projects/use-case/trichrome",
+    name: "Studio Haddou / Dufourcq",
+    subtitle: "Webmaster - Dev Front-end",
+    thumbnail: "Studio-HD.jpg",
+    video: "",
+    key: "studio-haddou-dufourcq",
+    liveWebsite: "www.haddou-dufourcq.com",
     isImg: true
   },
   {
-    name: "FoodLab",
-    subtitle: "Platform",
-    image: "/assets/images/thumbnails/Paul-Haddou_Thumbnail-Projects_Affiche-Deadpool.jpg",
-    video: "foodlab/home-thumbnails.jpg",
-    altImage: "",
-    translationKey: "foodlab",
-    internalLink: "foodlab",
-    liveWebsite: "/projects/use-case/foodlab",
+    name: "Motion animation de logo",
+    subtitle: "Motion designer",
+    thumbnail: "",
+    video: "Motion-Animation-de-logo.mp4",
+    key: "motion-animation-de-logo",
+    liveWebsite: "",
+    isImg: false
+  },
+  {
+    name: "My Pills",
+    subtitle: "UX / UI Designer",
+    thumbnail: "My-pills.jpg",
+    video: "",
+    key: "my-pills",
+    liveWebsite: "",
     isImg: true
-  }
+  },
+  {
+    name: "Affiches de campagnes Synerg'hetic",
+    subtitle: "Graphiste",
+    thumbnail: "Affiches-Synerg.jpg",
+    video: "",
+    key: "affiches-synerg",
+    liveWebsite: "",
+    isImg: true
+  },
 ]
