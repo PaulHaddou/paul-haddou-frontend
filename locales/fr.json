@@ -74,26 +74,29 @@
       "website-button": "Visiter le site"
     },
     "projects": {
-      "trichrome": {
-        "meta-description": "",
-        "blocs-text": [
-          "Trichrome est une boîte de production créative basée à Paris. Ils créent des expériences audiovisuelles pour leurs clients en s’appuyant sur leur large éventail de talents créatifs.",
-          "Pour ce projet, nous avions pour objectif de faire paraître leur savoir faire à travers un site web à leur image. L’enjeu pour Trichrome était d’approfondir leur présence digitale en ayant une nouvelle vitrine, cette fois ci sur le web. Ensemble, nous avons créé et intégré un design unique à leur marque, avec une technologie scalable leur permettant de mettre à jour rapidement et simplement son contenu. Le choix de la stack s’est donc naturellement portée sur VueJS, afin de garder une liberté créative et une souplesse au niveau du développement.",
-          "Durant notre collaboration, nous avons imaginé les différentes manières de concevoir un site ergonomique et simple, mettant en valeur la qualité audiovisuelle de leurs projets. La navigation fut un point essentiel lors de la mise en place du produit. Il nous fallait garder un côté élégant tout en restant intuitif. L’expérience devait de même être immersive pour l’utilisateur dans cet univers. Après des moments de réflexion avec les différentes équipes, nous avons développé et livré le nouveau site internet impactant de Trichrome."
-        ],
-        "blocs-banner": [
-        ],
-        "images-alts": "Image du projet Trichrome"
-      },
-      "foodlab": {
-        "meta-description": "",
-        "blocs-text": [
-          "Foodlab est un laboratoire de recherche sur les sujet culinaires. Ils travaillent avec des marques et des industrielles afin de proposer des audits sur plusieurs aspects d’une sélection de produits : durabilité, santé, innovation, RSE",
-          "L’objectif de notre collaboration était de leur proposer une plateforme de visualisation de données, leur permettant d’obtenir les résultats de leurs recherches sous forme de graphiques précis sur un tableau de bord. L’enjeu était ici d’avoir un traitement de données performant, afin de récupérer les graphiques à utiliser dans les rapports d’audit du laboratoire. La performance du système était un point crucial de ce projet. Le volume de données étant particulièrement élevé, il a fallu mettre en place un système de traitement optimale en big data n’impactant pas le temps de chargement de la plateforme. Dorénavant, FoodLab peut utiliser en interne une nouvelle plateforme de data visualisation leur facilitant la gestion de leur travail au quotidien."
-        ],
-        "blocs-banner": [
-        ],
-        "images-alts": "Image du projet foodlab"
+      "studio-haddou-dufourcq": {
+        "name": "Studio Haddou / Dufourcq",
+        "header": {
+          "jobs": [
+            "Postes",
+            "Webmaster",
+            "Dev Front-End"
+          ],
+          "tools":[
+            "Technologies",
+            "HTML, SCSS, JS, PHP"
+          ],
+          "date": "Depuis 2018"
+        },
+        "content": {
+          "title-1": "Le projet",
+          "text-1": [
+            "Le projet remonte à juin 2018, quand le Studio cherche à créer son site vitrine afin de présenter ses divers projets d’architecture intérieure et design. Ils solicitent mon aide sur ce projet. Je suis chargé de la création du site de A à Z (Design, développement, achat du nom de domaine, mise en ligne, ...).",
+            "Début 2020 les clients souhaitent une refonte globale du site, je réalise donc une nouvelle version. Cela me permet de mettre en application les nouvelles connaisances acquises entre temps. Je réalise un burger menu propre et fonctionnel, corrige les nombreux bugs de responsive, insère du php afin de rendre le code plus lisible, passe le CSS en SCSS, refais le slider existant : le code est donc amélioré de fond en comble ainsi que le design global du site."
+          ],
+          "text-2": "L’un des challenges de ce projet était la réalisation d’un carousel responsive en full JS vanilla. L’objectif était d’obtenir un carousel relativement épuré correspondant au style du studio.",
+          "text-3": "Le responsive du site a été travaillé afin de s’adapter au mieux à n’importe quel device et à la taille de chaque écran. Le burger menu ainsi que le carousel ont été étudiés afin de les rendre parfaitement responsive."
+        }
       }
     }
   }

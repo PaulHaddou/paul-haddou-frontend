@@ -68,32 +68,29 @@
     "see-project": "See project",
     "mail": "Contact us"
   },
-  "use-cases": {
-    "template": {
-      "tasks": "Tasks",
-      "website-button": "Visite website"
-    },
-    "projects": {
-      "trichrome": {
-        "meta-description": "",
-        "blocs-text": [
-          "Trichrome is a creative production company based in Paris. They create audiovisual experiences for their clients by drawing on their wide range of creative talents.",
-          "For this project, our objective was to showcase their know-how through a website that reflected their image. The challenge for Trichrome was to deepen their digital presence by having a new showcase, this time on the web. Together, we created and integrated a design unique to their brand, with a scalable technology allowing them to update their content quickly and easily. The choice of stack was naturally VueJS, in order to keep creative freedom and development flexibility.",
-          "During our collaboration, we imagined different ways to design a simple and ergonomic website, highlighting the audiovisual quality of their projects. Navigation was a key point in the development of the product. We had to keep it elegant but still intuitive. The experience also had to be immersive for the user in this universe. After a lot of brainstorming with the different teams, we developed and delivered Trichrome's new impactful website."
+  "projects": {
+    "studio-haddou-dufourcq": {
+      "name": "Studio Haddou / Dufourcq",
+      "header": {
+        "jobs": [
+          "Postes",
+          "Webmaster",
+          "Dev Front-End"
         ],
-        "blocs-banner": [
+        "tools":[
+          "Technologies",
+          "HTML, SCSS, JS, PHP"
         ],
-        "images-alts": "Image of the Trichrome project"
+        "date": "Depuis 2018"
       },
-      "foodlab": {
-        "meta-description": "",
-        "blocs-text": [
-          "Foodlab is a research laboratory on culinary topics. They work with brands and manufacturers to propose audits on several aspects of a selection of products: sustainability, health, innovation, CSR",
-          "The objective of our collaboration was to offer them a data visualisation platform, allowing them to obtain the results of their research in the form of precise graphs on a dashboard. The challenge here was to have a powerful data processing system, in order to retrieve the graphs to be used in the laboratory's audit reports. The performance of the system was a crucial point in this project. As the volume of data was particularly high, it was necessary to set up an optimal big data processing system that did not impact the platform's loading time. From now on, FoodLab can use a new data visualisation platform internally to facilitate the management of their daily work."
+      "content": {
+        "title-1": "Le projet",
+        "text-1": [
+          "Le projet remonte à juin 2018, quand le Studio cherche à créer son site vitrine afin de présenter ses divers projets d’architecture intérieure et design. Ils solicitent mon aide sur ce projet. Je suis chargé de la création du site de A à Z (Design, développement, achat du nom de domaine, mise en ligne, ...).",
+          "Début 2020 les clients souhaitent une refonte globale du site, je réalise donc une nouvelle version. Cela me permet de mettre en application les nouvelles connaisances acquises entre temps. Je réalise un burger menu propre et fonctionnel, corrige les nombreux bugs de responsive, insère du php afin de rendre le code plus lisible, passe le CSS en SCSS, refais le slider existant : le code est donc amélioré de fond en comble ainsi que le design global du site."
         ],
-        "blocs-banner": [
-        ],
-        "images-alts": "Image du projet foodlab"
+        "text-2": "L’un des challenges de ce projet était la réalisation d’un carousel responsive en full JS vanilla. L’objectif était d’obtenir un carousel relativement épuré correspondant au style du studio.",
+        "text-3": "Le responsive du site a été travaillé afin de s’adapter au mieux à n’importe quel device et à la taille de chaque écran. Le burger menu ainsi que le carousel ont été étudiés afin de les rendre parfaitement responsive."
       }
     }
   }
