@@ -14,10 +14,10 @@
               :key="index"
               class="links"
             >
-              <nuxt-link to="#>">
+              <nuxt-link :to="page.link">
                 {{ $t(''+ page.name +'') }}
               </nuxt-link>
-              <span class="spanActiv" />
+              <span :class="$nuxt.$route.fullPath == page.link ? 'spanActiv' : 'spanDisable' " />
             </div>
             <!-- <div class="sections-links_language">
               <div class="language-Not-Choosen">
@@ -55,7 +55,7 @@
           :key="index"
           class="links"
           active-class="current-page"
-          to="/"
+          :to="page.link"
         >
           {{ $t(''+ page.name +'') }}
         </nuxt-link>
@@ -78,19 +78,24 @@ export default {
       isClicked: false,
       pages: [
         {
-          name: 'navbar.all-projects'
+          name: 'navbar.all-projects',
+          link: '/'
         },
+        // {
+        //   name: 'navbar.development'
+        // },
+        // {
+        //   name: 'navbar.design'
+        // },
         {
-          name: 'navbar.development'
-        },
-        {
-          name: 'navbar.design'
-        },
-        {
-          name: 'navbar.about'
+          name: 'navbar.about',
+          link: '/about'
         }
       ]
     }
+  },
+  mounted () {
+    console.log(this.$nuxt.$route)
   },
   methods: {
     onClick () {
