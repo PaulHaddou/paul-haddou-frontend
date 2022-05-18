@@ -1,137 +1,74 @@
 {
-  "home": {
-    "hero-header": {
-      "title": {
-        "regular": "We build web2 & web3 experiences.",
-        "bold": "We build the",
-        "last-word": "future"
-      }
-    },
-    "our-clients": {
-      "name": "Our clients & partners",
-      "first-line": "We built",
-      "last-line": "together"
-    },
-    "our-agency": {
-      "name": "Our Agency",
-      "text": "The new major web transition is ongoing, and Avicenne supports you through your web2 and web3 projects. Beyond communication and online interaction, taking control over your data and decentralization through Blockchain is the core subject."
-    },
-    "works-section": {
-      "name": "Our Works",
-      "works": {
-        "trichrome":{
-          "image-alt": "Image of the Trichrome project"
-        },
-        "foodlab":{
-          "image-alt": "Image of the foodlab project"
-        }
-      }
-    },
-    "services-section": {
-      "name": "Our Services",
-      "services": {
-        "web-development": {
-          "title": "Web development",
-          "description": " We develop custom web applications for startups, small companies and big corporations using a wide range of technologies. We support our collaborators in the creation of their product, taking into consideration the issues of scaling, maintainability and performance.",
-          "image-alt": "Image of the web development service"
-        },
-        "blockchain-development": {
-          "title": "Blockchain",
-          "description": "From token creation and decentralized applications to complex governance systels and DAOs. Avicenne accompanies you as part of its blockchain services from the definition of your need to the realization of your project. Through an agile methodology, we can set up your NFT Marketplace, as well as your staking and ICO platform. Rigorous testing is essential for the deployment of your smart contracts, so 100% coverage is required upon delivery.",
-          "image-alt": "Image of the web blockchain service"
-        }
-      }
-    },
-    "team-section": {
-      "name": "The Team",
-      "jobs": {
-        "president": "President",
-        "managing-director": "Managing Director"
-      },
-      "images-alt": {
-        "adam-aleb": "Image of Adam Aleb",
-        "marwane-lairi": "Image of Marwane Lairi"
-      }
-    }
-  },
   "navbar": {
     "all-projects": "All projects",
     "development": "Development",
     "design": "Design",
     "about": "About me"
   },
-  "footer": {
-    "name": "Contact Us",
-    "socials-title": "Follow Us"
-  },
-  "cursor": {
-    "see-project": "See project",
-    "mail": "Contact us"
-  },
   "projects": {
     "studio-haddou-dufourcq": {
       "name": "Studio Haddou / Dufourcq",
       "header": {
         "jobs": [
-          "Postes",
+          "Jobs",
           "Webmaster",
-          "Dev Front-End"
+          "Front-End Dev"
         ],
         "tools":[
-          "Technologies",
+          "Languages",
           "HTML, SCSS, JS, PHP"
         ],
-        "date": "Depuis 2018"
+        "date": "Since 2018"
       },
       "content": {
-        "title-1": "Le projet",
+        "title-1": "The project",
         "text-1": [
-          "Le projet remonte à juin 2018, quand le Studio cherche à créer son site vitrine afin de présenter ses divers projets d’architecture intérieure et design. Ils solicitent mon aide sur ce projet. Je suis chargé de la création du site de A à Z (Design, développement, achat du nom de domaine, mise en ligne, ...).",
-          "Début 2020 les clients souhaitent une refonte globale du site, je réalise donc une nouvelle version. Cela me permet de mettre en application les nouvelles connaisances acquises entre temps. Je réalise un burger menu propre et fonctionnel, corrige les nombreux bugs de responsive, insère du php afin de rendre le code plus lisible, passe le CSS en SCSS, refais le slider existant : le code est donc amélioré de fond en comble ainsi que le design global du site."
+          "The project dates back to June 2018, when the Studio seeks to create its showcase site to present its various interior architecture and design projects. They are asking for my help on this project. I'm in charge of the creation of the website from A to Z (design, development, domain name purchase, online publishing, ...).",
+          "At the beginning of 2020 the customers want a global redesign of the site, so I realize a new version. This allows me to apply the new knowledge acquired in the meantime. I create a clean and functional burger menu, fix the many responsive bugs, insert php to make the code more readable, switch the CSS to SCSS, redo the existing slider: the code is improved from top to bottom as well as the overall design of the site."
         ],
-        "text-2": "L’un des challenges de ce projet était la réalisation d’un carousel responsive en full JS vanilla. L’objectif était d’obtenir un carousel relativement épuré correspondant au style du studio.",
-        "text-3": "Le responsive du site a été travaillé afin de s’adapter au mieux à n’importe quel device et à la taille de chaque écran. Le burger menu ainsi que le carousel ont été étudiés afin de les rendre parfaitement responsive."
+        "text-2": "One of the challenges of this project was the realization of a responsive carousel in full JS vanilla. The objective was to obtain a relatively pure carousel corresponding to the style of the studio.",
+        "text-3": "The responsive of the site has been worked to adapt to any device and the size of each screen. The burger menu as well as the carousel have been studied in order to make them perfectly responsive."
       }
     },
     "motion-animation-de-logo": {
-      "name": "Motion animation de logo",
+      "name": "Motion logo animation",
       "header": {
         "jobs": [
-          "Postes",
+          "Job",
           "Motion Designer"
         ],
         "tools":[
-          "Logiciel",
+          "Software",
           "After Effects"
         ],
         "date": "2020"
       },
       "content": {
-        "title-1": "Le projet",
+        "title-1": "The project",
         "text-1": [
-          "Ce projet avait pour intention de nous initier aux bases du motion. Nous avons donc pendant une semaine eu des cours initiatiques à l’utilisation d’after effect. Le but était de pouvoir réaliser une courte vidéo d’une dizaines de secondes. Ce motion est le résultat de cette semaine d’initiation.",
-          "J’avais déjà réalisé une animation de mon nom et prénom pour mon site en full js et n’étais pas totalement satisfait du résultat. Cette initiation à after effect m’a permis de réaliser une nouvelle animation avec un résultat plus concluant."
+          "This project was intended to introduce us to the basics of the motion. So for a week we had introductory courses in the use of after effect. The goal was to be able to make a short video of about ten seconds. This motion is the result of this week of initiation.",
+          "I had already made an animation of my name and surname for my site in full js and was not totally satisfied with the result. This initiation to after effect allowed me to make a new animation with a more conclusive result."
         ]
       }
     },
     "affiches-synerg": {
-      "name": "Affiches de campagne Synerg'hetic",
+      "name": "Synerg'hetic campaign posters",
       "header": {
         "jobs": [
-          "Postes",
+          "Job",
           "Graphiste"
         ],
         "tools":[
-          "Logiciel",
+          "Software",
           "Figma"
         ],
         "date": "2020"
       },
       "content": {
-        "title-1": "Le projet",
+        "title-1": "The project",
         "text-1": [
-          "Il s'agissait de réaliser des affiches de campagnes pour ma candidature au poste de Président de Synerg’hetic, la Junior-Entreprise de mon école.",
-          "J’ai choisi de créer quatre affiches représentant selon moi chacune une facette de ma personnalité, mise en avant par un petit paragraphe et illustré par une image. Le tout, sur un ton humoristique et en respectant la charte graphique de la Junior-Entreprise."
+          "It was to make campaign posters for my candidacy as president of Synerg'hetic, my school's Junior Achievement.",
+          "I chose to create four posters, each one representing a facet of my personality, highlighted by a small paragraph and illustrated by a picture. The whole, in a humorous tone and respecting the graphic charter of the Junior-Enterprise."
         ]
       }
     },
@@ -139,37 +76,36 @@
       "name": "My pills",
       "header": {
         "jobs": [
-          "Postes",
+          "Jobs",
           "UX Designer",
           "UI Designer"
         ],
         "tools":[
-          "Logiciel",
+          "Softwares",
           "Figma",
           "Invision"
         ],
         "date": "2020"
       },
       "content": {
-        "title-1": "Le projet",
-        "title-2": "Phase 1 : Démarche UX",
-        "title-3": "Phase 2 : Conception graphique",
-        "title-4": "Les différentes fonctionnalités",
-        "banner": "Comment assurer une prise de traitement quotidienne en permettant au patient d’éviter tout risque d’oubli ? ",
+        "title-1": "The project",
+        "title-2": "Phase 1: UX approach",
+        "title-3": "Phase 2: Graphic design",
+        "title-4": "The different functionalities",
+        "banner": "How to ensure a daily intake of treatment while allowing the patient to avoid any risk of forgetting ?",
         "text-1": [
-          "Ce projet réalisé en groupe au cours de ma troisième année de cours avait pour but de réfléchir à l’user expérience d’une application à but médical.",
-          "Nous avons travaillé en deux phases distinctes : tout d’abord une phase de réflexion conceptuelle et pratique suivie d’une phase de conception graphique ( wireframes, maquettes, ...). Au cours de ce projet, j’ai donc participé aussi bien à la réflexion qu’à la conception graphique.",
-          "Mes camarades sur ce projet : Louise Bonnaves, Pierre Joessel, Alexis Greux, Matthias Gander"
+          "The goal of this group project during my third year was to reflect on the user experience of a medical application.",
+          "We worked in two distinct phases: first of all a conceptual and practical reflection phase followed by a graphic design phase (wireframes, mock-ups, ...). During this project, I took part in the reflection as well as in the graphic design.",
+          "My classmates on this project : Louise Bonnaves, Pierre Joessel, Alexis Greux, Matthias Gander"
         ],
-        "text-2": "Nous avons au départ mis en place un questionnaire afin de cerner les besoins que pourrait avoir un utilisateur de notre application. Nous avons donc interviewé une personne atteinte de sclérose en plaque afin d’avoir un début de réflexion sur le type d’application qui pourrait lui être utile. Ses réponses nous ont permis de trouver la problématique qui allait nous guider dans l’élaboration de notre application.",
-        "text-3": "Avec cette problématique, nous nous sommes lancés dans la réalisation d’une empaty map qui nous a permis de réfléchir à toutes les fonctionnalités indispensables à notre application. Afin de la rendre unique, pratique et utile.",
-        "text-4": "Une fois toutes les fonctionnalités trouvées, nous nous sommes concentrés sur la création de wireframes, puis sur la création de maquettes haute-fidélité.",
-        "text-5": "Après avoir renseigné toutes les informations utiles pour son traitement, l’utilisateur arrive sur la page principale de l’application. C’est sur cette page d’accueil que sont indiquées ses heures de rappel ainsi qu’une horloge lui permettant de savoir quand sera son prochain rappel s’il prends sa prise maintenant. Il peut utiliser la petite cloche pour faire sonner son boîtier s’il l’a perdu.",
-        "text-6": "Vient ensuite la fonctionnalité permettant d’indiquer à l’utilisateur combien de médicaments il doit emporter avec lui selon la durée de son séjour lors d’un voyage. Il suffit pour cela de renseigner les dates d’aller et de retour. Une fenêtre pop-up apparaît avec le nombre exact de cachets à emporter dans ses bagages.",
-        "text-7": "Dans une volonté d’accompagner de rassurer l’utilisateur, nous avons mis en place une section “Conseils” au sein de l’application. L’utilisateur peut rapidement retrouver toutes les informations nécessaires sur la marche à suivre en cas d’oubli d’une prise, une FAQ concernant sa maladie et pleins d’autres informations lui permettant de mieux comprendre sa maladie, de le rassurer et le guider au quotidien.",
-        "text-8": "La dernière section permet quant à elle de prévenir l’utilisateur quand son stock de médicaments arrive à son terme et de lui permettre de faire la demande de renouvellement d’ordonnance auprès de son médecin. Si le renouvellement est automatiquement possible, l’ordonnance est directement disponible dans l’application et l’utilisateur peut commander son traitement en pharmacie. Si le renouvellement est impossible, une option prise de RDV est disponible.",
-        "text-9": "En conclusion, notre application possède de nombreuses fonctionnalités afin de répondre au mieux aux différents besoins de l’utilisateur et de l’accompagner au quotidien dans le traitement de sa maladie. MyPills se veut être l’application de suivi de traitement la plus complète du marché."
-
+        "text-2": "We initially set up a questionnaire to identify the needs that a user of our application might have. So we interviewed a person with multiple sclerosis to get a start on thinking about the type of application that could be useful to him or her. His answers helped us find the problem that would guide us in developing our application.",
+        "text-3": "With this problem, we started to create an empaty map which allowed us to think about all the functionalities essential to our application. In order to make it unique, practical and useful.",
+        "text-4": "Once all the features were found, we focused on creating wireframes and then on creating high-fidelity mock-ups.",
+        "text-5": "After having filled in all the useful information for its treatment, the user arrives on the main page of the application. It is on this home page that his reminder times are indicated as well as a clock that allows him to know when his next reminder will be if he takes his plug now. He can use the little bell to ring his box if he has lost it.",
+        "text-6": "Then there is the functionality to tell the user how many medicines to take with them depending on how long they will be travelling for. All you have to do is enter the dates of the outward and return journeys. A pop-up window appears with the exact number of pills to take with you in your luggage.",
+        "text-7": "In a desire to help reassure the user, we have set up a 'Tips' section within the application. The user can quickly find all the necessary information on the procedure to follow in case he forgets to take a pill, an FAQ concerning his illness and a lot of other information allowing him to better understand his illness, to reassure him and guide him on a daily basis.",
+        "text-8": "The last section warns the user when his or her stock of drugs is running out and allows the user to request a prescription renewal from his or her doctor. If the renewal is automatically possible, the prescription is directly available in the application and the user can order his treatment in a pharmacy. If renewal is not possible, an appointment option is available.",
+        "text-9": "In conclusion, our application has many functionalities to best meet the user's different needs and to accompany him in the daily treatment of his disease. MyPills aims to be the most complete treatment monitoring application on the market."
       }
     }
   }
