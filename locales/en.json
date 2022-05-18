@@ -92,6 +92,27 @@
         "text-2": "L’un des challenges de ce projet était la réalisation d’un carousel responsive en full JS vanilla. L’objectif était d’obtenir un carousel relativement épuré correspondant au style du studio.",
         "text-3": "Le responsive du site a été travaillé afin de s’adapter au mieux à n’importe quel device et à la taille de chaque écran. Le burger menu ainsi que le carousel ont été étudiés afin de les rendre parfaitement responsive."
       }
+    },
+    "motion-animation-de-logo": {
+      "name": "Motion animation de logo",
+      "header": {
+        "jobs": [
+          "Postes",
+          "Motion Designer"
+        ],
+        "tools":[
+          "Logiciel",
+          "After Effects"
+        ],
+        "date": "2020"
+      },
+      "content": {
+        "title-1": "Le projet",
+        "text-1": [
+          "Ce projet avait pour intention de nous initier aux bases du motion. Nous avons donc pendant une semaine eu des cours initiatiques à l’utilisation d’after effect. Le but était de pouvoir réaliser une courte vidéo d’une dizaines de secondes. Ce motion est le résultat de cette semaine d’initiation.",
+          "J’avais déjà réalisé une animation de mon nom et prénom pour mon site en full js et n’étais pas totalement satisfait du résultat. Cette initiation à after effect m’a permis de réaliser une nouvelle animation avec un résultat plus concluant."
+        ]
+      }
     }
   }
 }
