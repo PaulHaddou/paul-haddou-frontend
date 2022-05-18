@@ -5,5 +5,5 @@ export default {
   defaultLocale: 'fr',
   detectBrowserLanguage: false,
   fallbackLocale: 'en',
-  messages: { en, fr },
+  messages: { en, fr }
 }

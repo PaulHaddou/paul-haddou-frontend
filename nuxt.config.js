@@ -5,9 +5,10 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'My-Portfolio-V2-Vue',
+    title: 'Paul Haddou',
+    titleTemplate: 'Paul Haddou - %s',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'fr'
     },
     meta: [
       { charset: 'utf-8' },

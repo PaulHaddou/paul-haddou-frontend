@@ -40,6 +40,24 @@
 import { PROJECTS } from '~/constants/home/'
 export default {
   name: 'HomePage',
+  title: 'Tous mes projets',
+  // htmlAttrs: {
+  //   lang: this.$i18n.locales
+  // },
+  meta: [
+    {
+      hid: 'description',
+      name: 'description',
+      lang: 'fr',
+      content: "Avicenne est une agence spécialisée dans le développement de projets web et blockchain. Découvrez nos services web3 et nos cas d'usages en ICO, NFT, DAO..."
+    },
+    {
+      hid: 'description',
+      name: 'description',
+      lang: 'en',
+      content: '5th year French student at Hétic (Paris) and passionate about the web. Front and back-end developer, UX / UI designer and - soon - 3D expert.'
+    }
+  ],
   components: {
     // Navbar
   },
