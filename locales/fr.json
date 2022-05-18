@@ -119,6 +119,27 @@
           ]
         }
       },
+      "affiches-synerg": {
+        "name": "Affiches de campagne Synerg'hetic",
+        "header": {
+          "jobs": [
+            "Postes",
+            "Graphiste"
+          ],
+          "tools":[
+            "Logiciel",
+            "Figma"
+          ],
+          "date": "2020"
+        },
+        "content": {
+          "title-1": "Le projet",
+          "text-1": [
+            "Il s'agissait de réaliser des affiches de campagnes pour ma candidature au poste de Président de Synerg’hetic, la Junior-Entreprise de mon école.",
+            "J’ai choisi de créer quatre affiches représentant selon moi chacune une facette de ma personnalité, mise en avant par un petit paragraphe et illustré par une image. Le tout, sur un ton humoristique et en respectant la charte graphique de la Junior-Entreprise."
+          ]
+        }
+      },
       "my-pills": {
         "name": "My pills",
         "header": {
