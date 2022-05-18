@@ -30,7 +30,13 @@
         </div>
       </div>
       <div class="projects_button">
-        <a class="projects_button_download" href="pdf/Paul-Haddou_Portfolio_FR.pdf" download>Voir mon CV></a>
+        <a
+          class="projects_button_download"
+          href="pdf/Paul-Haddou_Portfolio_FR.pdf"
+          download
+        >
+          Voir mon CV
+        </a>
       </div>
     </div>
   </div>
