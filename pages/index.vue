@@ -55,7 +55,7 @@ export default {
       hid: 'description',
       name: 'description',
       lang: 'fr',
-      content: "Avicenne est une agence spécialisée dans le développement de projets web et blockchain. Découvrez nos services web3 et nos cas d'usages en ICO, NFT, DAO..."
+      content: 'Étudiant français en 5ème année à Hétic (Paris) et passionné par le web. Développeur Front et Back-end, UX / UI designer et - bientôt - expert 3D.'
     },
     {
       hid: 'description',

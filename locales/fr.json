@@ -108,5 +108,38 @@
         "text-9": "En conclusion, notre application possède de nombreuses fonctionnalités afin de répondre au mieux aux différents besoins de l’utilisateur et de l’accompagner au quotidien dans le traitement de sa maladie. MyPills se veut être l’application de suivi de traitement la plus complète du marché."
       }
     }
+  },
+  "about": {
+    "skills": {
+      "title": "Compétences",
+      "development": [
+        "Développement",
+        "HTML, CSS, SCSS, JS, PHP, Three.JS, MySQL, GraphQL, React, Vue, Next, Nuxt, Gatsby",
+        "Storyblok, Prismic, Vercel, Netlify"
+      ],
+      "design": [
+        "Illustrator, Photoshop, After Effects, Premiere Pro",
+        "Figma, Sketch, Webflow"
+      ],
+      "3d": [
+        "SketchUp, V-Ray, Blender"
+      ],
+      "collaboration": [
+        "Collaboration",
+        "Trello, Notion, Google Drive, Slack"
+      ],
+      "languages": [
+        "Langues",
+        "Français - Langue Maternelle",
+        "Anglais - Niveau B2"
+      ]
+    },
+    "contact": {
+      "mail": "Contactez-moi !",
+      "resume": {
+        "title": "Mon CV",
+        "cta": "Consultez-le !"
+      }
+    }
   }
 }

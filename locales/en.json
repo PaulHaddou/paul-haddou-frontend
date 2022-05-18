@@ -108,5 +108,38 @@
         "text-9": "In conclusion, our application has many functionalities to best meet the user's different needs and to accompany him in the daily treatment of his disease. MyPills aims to be the most complete treatment monitoring application on the market."
       }
     }
+  },
+  "about": {
+    "skills": {
+      "title": "Skills",
+      "development": [
+        "Development",
+        "HTML, CSS, SCSS, JS, PHP, Three.JS, MySQL, GraphQL, React, Vue, Next, Nuxt, Gatsby",
+        "Storyblok, Prismic, Vercel, Netlify"
+      ],
+      "design": [
+        "Illustrator, Photoshop, After Effects, Premiere Pro",
+        "Figma, Sketch, Webflow"
+      ],
+      "3d": [
+        "SketchUp, V-Ray, Blender"
+      ],
+      "collaboration": [
+        "Collaboration",
+        "Trello, Notion, Google Drive, Slack"
+      ],
+      "languages": [
+        "Languages",
+        "French - Native Language",
+        "English - B2 Level"
+      ]
+    },
+    "contact": {
+      "mail": "Contact-me !",
+      "resume": {
+        "title": "My resume",
+        "cta": "Check it out !"
+      }
+    }
   }
 }
