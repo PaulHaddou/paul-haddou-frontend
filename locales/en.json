@@ -51,6 +51,26 @@
         ]
       }
     },
+    "liminal": {
+      "name": "Liminal",
+      "header": {
+        "jobs": [
+          "Job",
+          "Front End developper"
+        ],
+        "tools":[
+          "Technologies",
+          "React, Nuxt, Storyblok"
+        ],
+        "date": "2021"
+      },
+      "content": {
+        "title-1": "",
+        "text-1": [
+          ""
+        ]
+      }
+    },
     "affiches-synerg": {
       "name": "Synerg'hetic campaign posters",
       "header": {

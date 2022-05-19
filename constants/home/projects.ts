@@ -9,6 +9,15 @@ interface Project {
 }
 export const PROJECTS : Project[] = [
   {
+    name: "Liminal",
+    subtitle: "Dev Front-end",
+    thumbnail: "liminal.jpg",
+    video: "",
+    key: "liminal",
+    liveWebsite: "",
+    isImg: true
+  },
+  {
     name: "Studio Haddou / Dufourcq",
     subtitle: "Webmaster - Dev Front-end",
     thumbnail: "Studio-HD.jpg",
