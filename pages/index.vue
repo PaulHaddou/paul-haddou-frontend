@@ -32,7 +32,7 @@
       <div class="projects_button">
         <a
           class="projects_button_download"
-          href="pdf/Paul-Haddou_Portfolio_FR.pdf"
+          href="/assets/pdf/CV_Paul-Haddou.pdf"
           download
         >
           Voir mon CV
