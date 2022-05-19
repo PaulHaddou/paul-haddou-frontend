@@ -71,6 +71,26 @@
         ]
       }
     },
+    "tsg": {
+      "name": "TSG",
+      "header": {
+        "jobs": [
+          "Poste",
+          "Développeur Front-End"
+        ],
+        "tools":[
+          "Technologies",
+          "React, Nuxt, Storyblok"
+        ],
+        "date": "2021"
+      },
+      "content": {
+        "title-1": "",
+        "text-1": [
+          ""
+        ]
+      }
+    },
     "affiches-synerg": {
       "name": "Affiches de campagne Synerg'hetic",
       "header": {
