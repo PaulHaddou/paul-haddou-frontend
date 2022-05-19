@@ -60,7 +60,7 @@
         ],
         "tools":[
           "Technologies",
-          "React, Nuxt, Storyblok"
+          "React, Next, Storyblok"
         ],
         "date": "2021"
       },
@@ -80,9 +80,30 @@
         ],
         "tools":[
           "Technologies",
-          "React, Nuxt, Storyblok"
+          "React, Next, Storyblok"
         ],
         "date": "2021"
+      },
+      "content": {
+        "title-1": "",
+        "text-1": [
+          ""
+        ]
+      }
+    },
+    "avicenne-agency": {
+      "name": "Avicenne Agency",
+      "header": {
+        "jobs": [
+          "Jobs",
+          "Front End developper",
+          "UX / UI Designer"
+        ],
+        "tools":[
+          "Technologies",
+          "Vue, Nuxt, Typescript"
+        ],
+        "date": "2022"
       },
       "content": {
         "title-1": "",
@@ -154,7 +175,7 @@
       "title": "Skills",
       "development": [
         "Development",
-        "HTML, CSS, SCSS, JS, PHP, Three.JS, MySQL, GraphQL, React, Vue, Next, Nuxt, Gatsby",
+        "HTML, CSS, SCSS, JS, PHP, Three.JS, MySQL, GraphQL, React, Vue, Nuxt, Next, Gatsby",
         "Storyblok, Prismic, Vercel, Netlify"
       ],
       "design": [
