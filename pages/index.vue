@@ -103,6 +103,11 @@ export default {
             display: flex;
             flex-wrap: wrap;
             box-shadow: $shadow-projects-widget;
+            //Mobile
+            @media (max-width: $bp-mobile) {
+              width: 100%;
+              height: unset;
+            }
             a
             {
                 width: 100%;
