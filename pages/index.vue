@@ -47,9 +47,6 @@ import { PROJECTS } from '~/constants/home/'
 export default {
   name: 'HomePage',
   title: 'Tous mes projets',
-  // htmlAttrs: {
-  //   lang: this.$i18n.locales
-  // },
   meta: [
     {
       hid: 'description',
