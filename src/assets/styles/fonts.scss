@@ -1,0 +1,22 @@
+$secondary-font-family: "Raleway";
+
+$primary-font-family: "Cinzel Decorative";
+@font-face {
+  font-family: $primary-font-family;
+  src:
+    url("@/assets/fonts/cinzel-decorative/CinzelDecorative-Regular.woff") format("woff"),
+    url("@/assets/fonts/cinzel-decorative/CinzelDecorative-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: $primary-font-family;
+  src:
+    url("@/assets/fonts/cinzel-decorative/CinzelDecorative-Bold.woff") format("woff"),
+    url("@/assets/fonts/cinzel-decorative/CinzelDecorative-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
