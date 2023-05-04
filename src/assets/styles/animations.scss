@@ -1,0 +1,30 @@
+@import "./breakpoints.scss";
+
+@mixin transition-navbar-link-mobile {
+  transition: left 0.5s ease-in-out 0.2s, right 0.5s ease-in-out 0.2s;
+}
+
+@mixin transition-navbar-button-opened-mobile {
+  transition: opacity 0.4s ease 0.6s;
+}
+@mixin transition-navbar-button-closed-mobile {
+  transition: opacity 0.4s ease;
+}
+
+@mixin transition-navbar-links-opened-mobile {
+  transition: transform 0.4s ease;
+}
+
+@mixin transition-navbar-links-closed-mobile {
+  transition: transform 0.6s ease 0.5s;
+}
+
+@mixin image-hover-active {
+  transform: scale(1.05);
+  transition: transform 0.7s ease;
+}
+
+@mixin image-hover-default {
+  transform: scale(1);
+  transition: transform 0.7s ease;
+}
