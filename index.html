@@ -1,13 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" href="./static/assets/images/favicon/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <link rel="icon" href="/public/static/assets/favicon/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="apple-touch-icon" href="/public/static/assets/favicon/apple-touch-icon.png" />
+
+    <meta name="title" content="Paul Haddou" />
+    <meta name="description" content="My name is Paul Haddou and I'm a French Junior Front-End developer" />
+    <meta name="keywords" content="front-end freelance portfolio french" />
+    <meta name="robots" content="noindex, follow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="french" />
+
+    <meta property="og:title" content="Paul Haddou" />
+    <meta property="og:site_name" content="Paul Haddou" />
+    <meta property="og:url" content="paul-haddou.com" />
+    <meta
+      property="og:description"
+      content="The first ever gamified NFT marketplace. Level-up your NFT game and earn
+    rewards with Spaace."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/public/static/assets/favicon/favicon.ico" />
+
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <title>Paul Haddou</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/index.tsx"></script>
   </body>
 </html>
