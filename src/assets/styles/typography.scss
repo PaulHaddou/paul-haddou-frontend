@@ -1,4 +1,6 @@
+@import "./fonts.scss";
 @import "./breakpoints.scss";
+@import "./colors.scss";
 
 @mixin sections-title {
   font-size: 60px;
@@ -252,7 +254,7 @@
   font-family: $primary-font-family;
   font-weight: 500;
   position: relative;
-  &::after{
+  &::after {
     content: ".";
     color: transparent;
     position: absolute;
@@ -271,7 +273,7 @@
   font-family: $primary-font-family;
   font-weight: 500;
   position: relative;
-  &::after{
+  &::after {
     content: ".";
     color: transparent;
     position: absolute;
@@ -320,4 +322,3 @@
   text-decoration: underline;
   cursor: pointer;
 }
-
