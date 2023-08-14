@@ -1,0 +1,45 @@
+@import "/src/assets/styles/variables.scss";
+
+.navbar {
+  width: 100vw;
+  height: fit-content;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: $color-p-500;
+  padding: 56px 150px;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+
+  .content {
+    width: 100%;
+    max-width: $bp-max-width;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    .logo {
+      height: 35px;
+      width: auto;
+    }
+
+    .links {
+      position: absolute;
+      right: 0;
+      width: fit-content;
+      display: flex;
+      gap: 16px;
+
+      .link {
+        font-family: $primary-font-family;
+        font-size: 18px;
+        color: $color-p-black;
+        line-height: 1.5;
+        text-decoration: none;
+      }
+    }
+  }
+}

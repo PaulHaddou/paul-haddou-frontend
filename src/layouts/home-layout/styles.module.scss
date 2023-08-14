@@ -1,0 +1,8 @@
+@import "/src/assets/styles/variables.scss";
+
+.homeLayout {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  position: relative;
+}
