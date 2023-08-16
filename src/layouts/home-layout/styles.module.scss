@@ -5,4 +5,15 @@
   flex-direction: column;
   width: 100vw;
   position: relative;
+
+  .navs {
+    width: 100vw;
+    height: 100vw;
+    max-height: -webkit-fill-available;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
 }

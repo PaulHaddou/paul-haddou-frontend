@@ -1,8 +1,8 @@
-import React from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 
 import App from "./App";
+import { ProjectsNavProvider } from "@/contexts/projects-navigation/projects-nav-context";
 
 import "./index.css";
 import "./i18n";
@@ -12,6 +12,8 @@ const root = createRoot(rootDiv as Element);
 
 root.render(
   <BrowserRouter>
-    <App />
+    <ProjectsNavProvider>
+      <App />
+    </ProjectsNavProvider>
   </BrowserRouter>
 );
