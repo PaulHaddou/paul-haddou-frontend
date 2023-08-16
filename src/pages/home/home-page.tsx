@@ -10,7 +10,6 @@ export const HomePage = () => {
       <div className={styles.homePage}>
         <div className={styles.content}>
           <span className={`${styles.borderRight} ${styles.border}`} />
-          <span className={`${styles.borderBottom} ${styles.border}`} />
           <div className={styles.title}>
             <span className={styles.text}>{PROJECTS[currentProjectIndex].name}</span>
           </div>
