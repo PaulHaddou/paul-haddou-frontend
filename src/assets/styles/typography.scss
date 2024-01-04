@@ -1,4 +1,4 @@
-@import "./fonts.scss";
+@import "./fonts.css";
 @import "./breakpoints.scss";
 @import "./colors.scss";
 
@@ -7,7 +7,7 @@
   line-height: 1.3;
   color: $color-p-black;
   font-weight: 200;
-  font-family: $primary-font-family;
+  font-family: "Cinzel Decorative";
   margin-bottom: 64px;
   // Mobile
   @media (max-width: $bp-mobile) {
@@ -21,7 +21,7 @@
   line-height: 1.3;
   color: $color-p-black;
   font-weight: 200;
-  font-family: $primary-font-family;
+  font-family: "Cinzel Decorative";
   margin: 0;
   // Tablet
   @media (max-width: $bp-tablet) {
@@ -39,7 +39,7 @@
   line-height: 1.3;
   color: $color-p-black;
   font-weight: 300;
-  font-family: $secondary-font-family;
+  font-family: "Cinzel";
   margin: 0;
   // Tablet
   @media (max-width: $bp-tablet) {
@@ -56,7 +56,7 @@
   line-height: 1.3;
   color: $color-p-black;
   font-weight: 300;
-  font-family: $secondary-font-family;
+  font-family: "Cinzel";
   margin: 0;
   // Tablet
   @media (max-width: $bp-tablet) {
@@ -73,7 +73,7 @@
   line-height: 1.3;
   color: $color-p-black;
   font-weight: 300;
-  font-family: $secondary-font-family;
+  font-family: "Cinzel";
   margin: 0;
 }
 
@@ -82,7 +82,7 @@
   line-height: 1.3;
   color: $color-p-black;
   font-weight: 200;
-  font-family: $primary-font-family;
+  font-family: "Cinzel Decorative";
   margin-top: 16px;
   // Tablet
   @media (max-width: $bp-tablet) {
@@ -95,7 +95,7 @@
 }
 
 @mixin title-tiny {
-  font-family: $primary-font-family;
+  font-family: "Cinzel Decorative";
   font-size: 16px;
   line-height: 1.3;
   font-weight: 200;
@@ -107,7 +107,7 @@
 }
 
 @mixin title-small {
-  font-family: $primary-font-family;
+  font-family: "Cinzel Decorative";
   font-size: 20px;
   line-height: 1.3;
   font-weight: 200;
@@ -123,7 +123,7 @@
 }
 
 @mixin title-small-bold {
-  font-family: $primary-font-family;
+  font-family: "Cinzel Decorative";
   font-size: 20px;
   line-height: 1.3;
   font-weight: 700;
@@ -139,7 +139,7 @@
 }
 
 @mixin title-medium {
-  font-family: $primary-font-family;
+  font-family: "Cinzel Decorative";
   font-size: 28px;
   line-height: 1.3;
   font-weight: 200;
@@ -155,7 +155,7 @@
 }
 
 @mixin title-large {
-  font-family: $primary-font-family;
+  font-family: "Cinzel Decorative";
   font-size: 40px;
   line-height: 1.3;
   font-weight: 200;
@@ -171,7 +171,7 @@
 }
 
 @mixin subtitle-tiny {
-  font-family: $secondary-font-family;
+  font-family: "Cinzel";
   font-size: 18px;
   line-height: 1.3;
   font-weight: 200;
@@ -187,7 +187,7 @@
 }
 
 @mixin subtitle-small {
-  font-family: $secondary-font-family;
+  font-family: "Cinzel";
   font-size: 20px;
   line-height: 1.3;
   font-weight: 400;
@@ -235,7 +235,7 @@
 }
 
 @mixin subtitle-medium {
-  font-family: $secondary-font-family;
+  font-family: "Cinzel";
   font-size: 28px;
   line-height: 1.3;
   font-weight: 300;
@@ -251,7 +251,7 @@
 }
 
 .title-bold-italic-underline--black {
-  font-family: $primary-font-family;
+  font-family: "Cinzel Decorative";
   font-weight: 500;
   position: relative;
   &::after {
@@ -270,7 +270,7 @@
   }
 }
 .title-bold-italic-underline--white {
-  font-family: $primary-font-family;
+  font-family: "Cinzel Decorative";
   font-weight: 500;
   position: relative;
   &::after {
@@ -289,17 +289,17 @@
   }
 }
 .sec-bold {
-  font-family: $secondary-font-family;
+  font-family: "Cinzel";
   font-weight: 500;
 }
 .prim-medium-italic {
-  font-family: $primary-font-family;
+  font-family: "Cinzel Decorative";
   font-weight: 500;
   font-style: italic;
   margin-left: 4px;
 }
 .prim-link-black {
-  font-family: $primary-font-family;
+  font-family: "Cinzel Decorative";
   font-weight: 500;
   font-style: italic;
   color: $color-p-black;
@@ -307,7 +307,7 @@
   cursor: pointer;
 }
 .sec-link-black {
-  font-family: $secondary-font-family;
+  font-family: "Cinzel";
   font-weight: 500;
   font-style: italic;
   color: $color-p-black;
@@ -315,7 +315,7 @@
   cursor: pointer;
 }
 .sec-link-white {
-  font-family: $secondary-font-family;
+  font-family: "Cinzel";
   font-weight: 500;
   font-style: italic;
   color: $color-p-white;
