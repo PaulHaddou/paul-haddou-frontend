@@ -1,6 +1,6 @@
 import { PROJECTS } from "@/constants";
 import { useProjectsNav } from "@/contexts/projects-navigation/projects-nav-context";
-import { HomeLayout } from "@/layouts/home-layout/home-layout";
+import { HomeLayout } from "@/layouts/home-layout";
 
 export const HomePage = () => {
   const { currentProjectIndex } = useProjectsNav();

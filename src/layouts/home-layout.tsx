@@ -1,6 +1,5 @@
 import { ReactNode } from "react";
 
-import styles from "./styles.module.scss";
 import { Navbar, ProjectsNav, ProjectsInfos } from "@/components/bars";
 
 interface Props {
@@ -9,10 +8,10 @@ interface Props {
 
 export const HomeLayout = ({ children }: Props) => {
   return (
-    <div className={styles.homeLayout}>
-      <div className={styles.navs}>
+    <div className="relative flex w-screen flex-col">
+      <div className="fixed left-0 top-0 flex h-screen w-screen flex-col">
         <Navbar />
-        <div className={styles.asides}>
+        <div className="flex w-full items-center justify-between">
           <ProjectsNav />
           <ProjectsNav />
         </div>
