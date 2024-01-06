@@ -71,8 +71,10 @@ export default {
         secondary: ["Cinzel"],
       },
       backgroundImage: {
-        homeBorderSides:
+        homeBorderX:
           "linear-gradient(180deg,rgba(255, 255, 255, 0) 1.56%,rgba(255, 255, 255, 0.9) 49.48%,rgba(255, 255, 255, 0) 100%)",
+        homeBorderY:
+          "linear-gradient(270deg,rgba(255, 255, 255, 0) 1.56%,rgba(255, 255, 255, 0.9) 49.48%,rgba(255, 255, 255, 0) 100%)",
       },
       transitionDuration: {
         main: "700ms",

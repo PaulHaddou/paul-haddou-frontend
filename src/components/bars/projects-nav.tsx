@@ -21,9 +21,9 @@ export const ProjectsNav = () => {
 
   return (
     <div className="box-border flex h-[calc(100vh-150px*2)] w-150 items-center justify-center">
-      <div className="flex flex-col items-center gap-16">
+      <div className="flex select-none flex-col items-center gap-16">
         <img
-          className={cx(currentProjectIndex === 0 && "pointer-events-none opacity-10", arrowClass)}
+          className={cx(currentProjectIndex === 0 && "pointer-events-none !opacity-10", arrowClass)}
           src={ArrowUpIcon}
           alt={t("Arrow up icon")}
           onClick={() => updateCurrentProject({ projectIndex: previousProjectIndex })}
@@ -34,7 +34,7 @@ export const ProjectsNav = () => {
           <span className="font-primary text-26 font-normal leading-150 text-dark">{lastProjectIndex}</span>
         </div>
         <img
-          className={cx(currentProjectIndex === lastProjectIndex && "pointer-events-none opacity-10", arrowClass)}
+          className={cx(currentProjectIndex === lastProjectIndex && "pointer-events-none !opacity-10", arrowClass)}
           src={ArrowDownIcon}
           alt={t("Arrow down icon")}
           onClick={() => updateCurrentProject({ projectIndex: nextProjectIndex })}
