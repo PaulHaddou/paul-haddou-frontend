@@ -74,8 +74,11 @@ export default {
         homeBorderSides:
           "linear-gradient(180deg,rgba(255, 255, 255, 0) 1.56%,rgba(255, 255, 255, 0.9) 49.48%,rgba(255, 255, 255, 0) 100%)",
       },
-      transitionDelay: {
+      transitionDuration: {
         main: "700ms",
+      },
+      transition: {
+        transform: "transform",
       },
       zIndex: {
         bg: -1,
