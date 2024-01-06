@@ -15,10 +15,11 @@
     "plugin:react-hooks/recommended",
     "plugin:import/errors",
     "plugin:import/warnings",
+    "plugin:tailwindcss/recommended",
     "plugin:storybook/recommended",
     "plugin:prettier/recommended"
   ],
-  "plugins": ["react", "jest", "prettier", "@typescript-eslint", "import"],
+  "plugins": ["react", "jest", "prettier", "@typescript-eslint", "tailwindcss", "import"],
   "ignorePatterns": ["lib", "build", "storybook-static"],
   "overrides": [
     {
