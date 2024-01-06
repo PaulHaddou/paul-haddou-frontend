@@ -9,6 +9,9 @@ export default {
         "13inch": "1280px",
         navbarBreakPoint: "1060px",
       },
+      height: {
+        navbar: "150px",
+      },
       colors: {
         dark: {
           DEFAULT: "#07071c",
@@ -61,6 +64,7 @@ export default {
       },
       lineHeight: {
         140: "140%",
+        150: "150%",
       },
       fontFamily: {
         primary: ["Cinzel Decorative"],
@@ -107,6 +111,8 @@ export default {
         48: "48px",
         56: "56px",
         64: "64px",
+        150: "150px",
+        maxW: "1920px",
       },
       boxShadow: {
         //
